@@ -33,4 +33,4 @@ jobs:
       run: npm install -g surge
       - name: deploying using surge 
         run: surge ./ sagar123.surge.sh --token $ {{secrets.surge_token}}
-        }}
+        
